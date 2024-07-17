@@ -1,0 +1,72 @@
+/* Add your desired styles here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links
+{
+    text-align: right;
+    background: #0e2431;
+    padding: 10px 30px;
+    border-bottom-left-radius: 18px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s ea;
+}
+
+.nav-links ul li a:hover
+{
+    color: #000;
+}
+
+.references {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+.reference {
+  text-align: center;
+}
+
+.reference img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #0e2431;
+  color: #fff;
+  margin-top: 3rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 3.5rem 0;
+}
+.footer-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-social {
+  margin-bottom: 2rem;
+}
+.footer-icon {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 1rem;
+}

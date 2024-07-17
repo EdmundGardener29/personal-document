@@ -1,0 +1,87 @@
+/* Add your desired styles here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #7acfcf;
+}
+.logo{
+  display: flex;
+  margin-bottom: -2px;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Varela Round';
+}
+.nav-links
+{
+    text-align: right;
+    background: #0e2431;
+    padding: 10px 30px;
+    border-bottom-left-radius: 18px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s ea;
+}
+
+.nav-links ul li a:hover
+{
+    color: #000;
+}
+
+.documents {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+.document {
+  text-align: center;
+
+}
+
+.document img {
+  width: 50%;
+  height: 130px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.document a {
+  display: block;
+  margin-top: 10px;
+  color: #f7f5f5;
+  text-decoration: none;
+}
+.footer {
+  background-color: #0e2431;
+  color: #fff;
+  margin-top: 11rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 3.5rem 0;
+}
+.footer-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-social {
+  margin-bottom: 2rem;
+}
+.footer-icon {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 1rem;
+}
